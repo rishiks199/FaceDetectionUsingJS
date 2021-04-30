@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    background-image: linear-gradient(to right,#db8282,rgb(79, 212, 172));
+    width: calc(100% - 33px);
+}
+
+canvas{
+    position: absolute;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.result{
+    display: flex;
+position: relative;
+top:-5em;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.result > div {
+    font-size: 1.3rem;
+    padding: 0.5rem;
+    margin: 5px 0;
+    color: white;
+    text-transform: capitalize;
+  }
+
+#Age {
+    background: #1e94be;
+  }
+  #expression {
+    background: #800c5d;
+  }
+  #Gender {
+    background: #434e05;
+  }
+
+  video{
+      width:100%;
+  }
+
+  header{
+    background: #00613c;
+    color: white;
+    width: 100%;
+    
+    margin-left: 10px;
+    font-size: 2rem;
+    text-align: center;
+  }
+
+.check{
+    position: relative;
+    top:-15em;
+    left: 3em;
+}
+
+.check > label{
+    color:rgb(0, 182, 24);
+    background-color: cornsilk;
+    font-size: larger;
+    
+}
